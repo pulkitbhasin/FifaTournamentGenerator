@@ -9,16 +9,16 @@ git clone https://github.com/pulkitbhasin/FifaTournamentGenerator.git
 ```
 
 2. Then run the following to install the only dependency required:
-    ```shell
-    pip install tabulate
-    ```
+```shell
+pip install tabulate
+```
 
 ## How to run:
 
-1. Then run the following to run the Tournament Generator:
-    ```shell
-    python main.py
-    ```
+1. Run the following to run the Tournament Generator:
+```shell
+python main.py
+```
 
 ## Details
 
