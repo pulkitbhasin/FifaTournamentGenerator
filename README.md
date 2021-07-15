@@ -1,5 +1,7 @@
 # FifaTournamentGenerator
 
+Creates a FIFA league tournament.
+
 ## Setup
 
 1. Clone the repo locally by running the follow on your terminal:
