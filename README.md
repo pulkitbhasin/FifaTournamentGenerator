@@ -1,6 +1,6 @@
 # FifaTournamentGenerator
 
-## How to run
+## Setup
 
 1. Clone the repo locally by running the follow on your terminal:
 
@@ -13,7 +13,15 @@ git clone https://github.com/pulkitbhasin/FifaTournamentGenerator.git
     pip install tabulate
     ```
 
-3. Then run the following to run the Tournament Generator:
+## How to run:
+
+1. Then run the following to run the Tournament Generator:
     ```shell
     python main.py
     ```
+
+## Details
+
+* Schedule defined using circle method
+* Points table sorted by Points -> Goal Difference -> Goals scored
+* Only an even number of players can particpate in the league
