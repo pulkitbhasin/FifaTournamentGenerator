@@ -25,3 +25,4 @@ git clone https://github.com/pulkitbhasin/FifaTournamentGenerator.git
 * Schedule defined using circle method
 * Points table sorted by Points -> Goal Difference -> Goals scored
 * Only an even number of players can particpate in the league
+* You can only have one league running at a time
