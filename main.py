@@ -14,6 +14,7 @@ def createTournament(numPlayers, teamSelectionType):
         playerTeam = input(str(playerName) + " gets to choose a team: ")
         players.append(Player.Player(playerName, playerTeam))
         playerNames.remove(playerName)
+    random.shuffle(players)
     tournament = Tournament.Tournament(players)
 
 def readTournamentFromFile():
@@ -54,9 +55,9 @@ if __name__ == '__main__':
             if os.path.isfile('tournament.pickle'):
                 tournament = readTournamentFromFile()
                 print("")
-                weekNum = input("Enter week number")
+                weekNum = input("Enter week number: ")
                 print("")
-                tournament.displayWeekSchedule(weekNum)
+                tournament.displayWeekSchedule(int(weekNum))
             else:
                 print("")
                 print("Please create a league first")
